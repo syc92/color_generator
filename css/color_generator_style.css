@@ -1,0 +1,62 @@
+/* not sure why can't use Lobster Regular; but can use bold */
+
+@font-face {
+	font-family: PatuaOne-Regular;
+	src: url('./font/Patua_One/PatuaOne-Regular.ttf');
+}
+
+body {
+	margin: 0px;
+}
+
+h1 {
+	margin: 40px;
+	font-family: PatuaOne-Regular;
+	font-size: 40px;
+	line-height: 1.2;
+	text-align: center;
+}
+
+/* .btnArea {
+	height: 120px;
+	background: #333;
+} */
+
+/* .btn {
+	position: absolute;
+	margin-left: 20%;
+	margin-right: 20%;
+
+} */
+body {
+	min-height: 720px;
+}
+
+.btn p {
+	font-family: PatuaOne-Regular;
+	font-size: 16px;
+	padding: 16px 32px;
+	margin: 0;
+	text-align: center;
+	background-color: #e9e9e9;
+	cursor: pointer;
+}
+
+.colorDisplay {
+	width: 60%;
+	margin: auto;
+}
+
+.colorDisplay circle {
+	cursor: pointer;
+	margin: 8px;
+}
+
+/* for moving circle */
+.floating {
+	background-color: black;
+	position: absolute;
+	box-shadow: 2 2 6px #a3a3a3a3;
+}
+
+
